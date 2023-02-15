@@ -25,6 +25,6 @@ Auth.currentAuthenticatedUser()
   })
   .catch(() => {
     // The user is not signed in...
-    document.getElementById('auth').textContent = 'Sign in';
+    button.textContent = 'Sign in';
     button.addEventListener('click', () => Auth.federatedSignIn());
   });
