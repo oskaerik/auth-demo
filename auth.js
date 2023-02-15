@@ -14,7 +14,6 @@ Amplify.configure({
   },
 });
 
-// auth.js
 const button = document.getElementById('auth');
 Auth.currentAuthenticatedUser()
   .then((user) => {
